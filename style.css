@@ -1,0 +1,94 @@
+/* ===============================
+   Second Commit: Hover & UI Improvement
+   =============================== */
+
+/* Body styling */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(230, 17%, 12%); /* almost black background */
+  color: hsl(0, 0%, 100%); /* all text white by default */
+  font-size: 14px;
+}
+
+/* Profile Card Container */
+.profile-card {
+  background-color: hsl(230, 17%, 20%); /* slightly lighter dark gray */
+  padding: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 375px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Profile Photo */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+/* Name */
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%); /* white */
+  margin-bottom: 0.3rem;
+}
+
+/* Location */
+.location {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%); /* green location text */
+  margin-bottom: 1rem;
+}
+
+/* Bio */
+.bio {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  color: hsl(0, 0%, 100%); /* white text */
+}
+
+/* Social Links Container */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* Social link buttons */
+.social-item {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  background-color: hsl(230, 17%, 16%); /* slightly darker than card container */
+  color: hsl(0, 0%, 100%); /* white text */
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for social links */
+.social-item:hover {
+  background-color: hsl(75, 94%, 57%); /* green */
+  color: hsl(0, 0%, 100%); /* keep text white */
+}
+
+/* Footer attribution at the bottom */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 12%, 44%);
+  margin-top: auto; 
+  padding: 1rem 0;
+}
