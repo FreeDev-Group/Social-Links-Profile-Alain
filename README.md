@@ -1,47 +1,83 @@
-# Development - Social Links Profile
+# Frontend Mentor - Social Links Profile Solution
 
-## Purpose
+This is a solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-The `develop` branch is used for **active development and learning**.
+## Table of Contents
 
-All tasks are completed through **GitHub Issues** and submitted using **Pull Requests**.
+- [Overview](#overview)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-This helps to practice a professional development workflow.
+## Overview
 
----
+### The Challenge
 
-## Development Workflow
+Users should be able to:
 
-You should follow this process:
+- See hover and focus states for all interactive elements on the page
+- View a clean, responsive social profile card
+- Navigate social links easily (GitHub, LinkedIn, Frontend Mentor, Instagram, Twitter)
 
-1. Read the issue assigned for the task
-2. Create a branch from `develop`
+### Screenshot
 
-Example: `feature/html-structure`
+![Screenshot of the project](Screenshot2.jpg)
 
-3. Work on the task locally
-4. Commit the changes
-5. Push the branch to GitHub
-6. Open a **Pull Request to develop**
+### Links
 
----
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Collaboration Rules
+## My Process
 
-- Do not commit directly to `main`
-- Work through branches
-- Follow the instructions in each issue
+### Built With
 
----
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-## Project Completion
+> **Note:** React, Next.js, or other frameworks are **not used** in this project.
 
-At the end of the project, the you must complete the file: ``custom-README-template.md``
+### What I Learned
 
+- How to structure a responsive profile card using HTML and CSS
+- How to create hover effects for interactive social links
+- How to apply consistent colors and typography following a style guide
 
-This file will describe:
+### Continued Development
 
--Context of the project
-- What was learned
-- Challenges encountered
-- Improvements for the future
+- Improve personalization of the profile card content
+- Enhance accessibility for keyboard navigation and screen readers
+- Experiment with subtle animations and micro-interactions
+
+### Useful Resources
+
+- [Frontend Mentor](https://www.frontendmentor.io/) – The challenge source and inspiration
+- [Google Fonts - Inter](https://fonts.google.com/specimen/Inter) – Used for typography
+
+### AI Collaboration
+
+- Tool used: **ChatGPT**  
+- How it was used: Assisted in writing HTML, CSS, and README structure, suggested clean commit separation strategies
+- Notes: Helped speed up development and ensured professional structure
+
+## Author
+
+- **Alan Bahane**  
+- Frontend Mentor - [@alainbahanep](https://www.frontendmentor.io/profile/alainbahanep)  
+- Twitter - [@alainbaha](https://x.com/alainbaha)
+
+## Acknowledgments
+
+- Mentor: **Solomon**  
+- AI Assistant: **ChatGPT**  
+- Frontend Mentor for the challenge inspiration
