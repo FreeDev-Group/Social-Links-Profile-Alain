@@ -1,7 +1,11 @@
-/* ===============================
-   Second Commit: Hover & UI Improvement
-   =============================== */
-
+:root {
+  --grey-900: hsl(0, 0%, 8%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-400: hsl(0, 0%, 70%);
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(75, 94%, 57%);
+}
 /* Body styling */
 body {
   display: flex;
@@ -9,14 +13,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: hsl(230, 17%, 12%); /* almost black background */
-  color: hsl(0, 0%, 100%); /* all text white by default */
+  background-color: var(--grey-900);
+  color: var(--white);
   font-size: 14px;
 }
 
 /* Profile Card Container */
 .profile-card {
-  background-color: hsl(230, 17%, 20%); /* slightly lighter dark gray */
+  background-color: var(--grey-800);
   padding: 2rem;
   border-radius: 15px;
   width: 90%;
@@ -38,7 +42,7 @@ body {
 .name {
   font-size: 1.8rem;
   font-weight: 700;
-  color: hsl(0, 0%, 100%); /* white */
+  color: var(--white);
   margin-bottom: 0.3rem;
 }
 
@@ -46,7 +50,7 @@ body {
 .location {
   font-size: 1rem;
   font-weight: 600;
-  color: hsl(75, 94%, 57%); /* green location text */
+  color: var(--green);
   margin-bottom: 1rem;
 }
 
@@ -56,7 +60,7 @@ body {
   font-weight: 400;
   margin-bottom: 2rem;
   line-height: 1.4;
-  color: hsl(0, 0%, 100%); /* white text */
+  color: var(--grey-400);
 }
 
 /* Social Links Container */
@@ -68,10 +72,10 @@ body {
 
 /* Social link buttons */
 .social-item {
-  padding: 0.8rem 1rem;
+  padding: 12px;
   border-radius: 10px;
-  background-color: hsl(230, 17%, 16%); /* slightly darker than card container */
-  color: hsl(0, 0%, 100%); /* white text */
+  background-color: var(--grey-700);
+  color: var(--white);
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -80,8 +84,8 @@ body {
 
 /* Hover effect for social links */
 .social-item:hover {
-  background-color: hsl(75, 94%, 57%); /* green */
-  color: hsl(0, 0%, 100%); /* keep text white */
+  background-color: var(--green);
+  color: var(--grey-900); /* dark text for contrast */
 }
 
 /* Footer attribution at the bottom */
