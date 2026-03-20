@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Repository](https://github.com/FreeDev-Group/Social-Links-Profile-Alain)
+- Live Site URL: [View Live Site](https://freedev-group.github.io/Social-Links-Profile-Alain/)
 
 ## My Process
 
@@ -78,6 +78,6 @@ Users should be able to:
 
 ## Acknowledgments
 
-- Mentor: **Solomon**  
+- Mentor: **Salomon Mwilo**  
 - AI Assistant: **ChatGPT**  
 - Frontend Mentor for the challenge inspiration
