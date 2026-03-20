@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/FreeDev-Group/Social-Links-Profile-Alain.git)
-- Live Site URL: [Add live site URL here](https://freedev-group.github.io/Social-Links-Profile-Alain/)
+- Solution URL: [View Repository](https://github.com/FreeDev-Group/Social-Links-Profile-Alain)
+- Live Site URL: [View Live Site](https://freedev-group.github.io/Social-Links-Profile-Alain/)
 
 ## My Process
 
